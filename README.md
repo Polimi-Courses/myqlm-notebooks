@@ -22,6 +22,3 @@ Then, you can launch a jupyter kernel:
 ## Documentation
 
 Check out https://myqlm.github.io.
-
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/myQLM/myqlm-notebooks/HEAD)
