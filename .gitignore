@@ -1,4 +1,4 @@
 *.ipynb_checkpoints*
 # File generated on the fly
-.aqasm
-.circ
+*.aqasm
+*.circ
