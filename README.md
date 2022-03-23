@@ -18,7 +18,6 @@ Then, you can launch a jupyter kernel:
 ### MyBinder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polimi-Courses/myqlm-notebooks/polimi2022?labpath=polimi2022_index.ipynb)
 
-
 ## Documentation
 
 Check out https://myqlm.github.io.
