@@ -1,6 +1,8 @@
 # myQLM notebooks
 
-## Requirements
+## HowTo
+
+### Locally
 
 You need to have myqlm installed on your computer:
 
@@ -8,11 +10,13 @@ You need to have myqlm installed on your computer:
 	pip install myqlm-simulators
 
 
-## Howto
 
-Launch a jupyter kernel:
+Then, you can launch a jupyter kernel:
 
 	jupyter notebook
+    
+### MyBinder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polimi-Courses/myqlm-notebooks/polimi2022?labpath=polimi2022_index.ipynb)
 
 
 ## Documentation
