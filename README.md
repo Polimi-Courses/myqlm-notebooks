@@ -27,6 +27,46 @@ Then, you can clone this repository
 and launch the jupyter kernel
 
 	jupyter notebook polimi2022_index.ipynb
+    
+#### Locally with pyenv
+If you want to install `myqlm` inside a separate python environment, you may
+give [pyenv](https://github.com/pyenv/pyenv) and
+[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) a try. Refer to
+their guides on how to install them. After both of them are installed, you can
+run.
+
+```
+pyenv install 3.9.7
+pyenv virtualenv 3.9.7 myqlm_env
+```
+
+where `3.9.7` is the python version used for this code and `myqlm_env` is the
+name of the virtual environment (you can change whatever name you like). You can
+also try different python version. You can check the python versions available
+for myQLM on their official
+[documentation](https://myqlm.github.io/myqlm_specific/install.html).
+
+Then, you can install myQLM inside the environment by launching
+
+```
+pyenv activate myqlm_env
+pip install myqlm
+pip install jupyter
+```
+
+To display the circuit inside jupyter-notebooks, you can install the following magic
+
+	python -m qat.magics.install
+
+Then, you can clone this repository 
+
+	git clone https://github.com/Polimi-Courses/myqlm-notebooks.git
+	cd myqlm-notebooks/
+	git checkout polimi2022
+
+and launch the jupyter kernel
+
+	jupyter notebook polimi2022_index.ipynb
 
 ### Docker
 You can build your own image using the provided `Dockerfile`.
