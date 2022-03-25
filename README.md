@@ -39,7 +39,7 @@ First, clone the repository
 
 Then, build the image.
 	
-	docker build -t myqlm-notebooks .
+	docker build -t myqlm-notebooks -f MyDockerfile .
 
 Finally, you can launch the container
 
